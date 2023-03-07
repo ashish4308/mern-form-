@@ -7,7 +7,7 @@ const login = require('./routes/login')
 const mongoose = require("mongoose")
 const cors = require('cors')
 
-mongoose.connect("mongodb+srv://ashish:test123@user.njbl4bf.mongodb.net/?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://ashish:<password>@user.njbl4bf.mongodb.net/?retryWrites=true&w=majority")
     .then(() => {
         console.log("db connected")
     }).catch(() => {
